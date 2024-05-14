@@ -1,0 +1,10 @@
+stages:
+  - build  
+  - deploy 
+
+image: python:3.9  
+
+build:
+  stage: build
+  script:
+    - pip install -r requirements.txt  

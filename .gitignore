@@ -1,7 +1,7 @@
 venv/
 media/
 # static/
-node/
+node/node_modules/
 __pycache__/
 .env
 .DS_Store
